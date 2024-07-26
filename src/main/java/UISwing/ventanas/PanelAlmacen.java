@@ -1,0 +1,16 @@
+package UISwing.ventanas;
+
+import javax.swing.JPanel;
+
+public class PanelAlmacen extends JPanel {
+
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * Create the panel.
+	 */
+	public PanelAlmacen() {
+
+	}
+
+}
