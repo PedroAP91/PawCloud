@@ -59,14 +59,11 @@ Ejecutar la Aplicación:
 bash
 Copiar código
 mvn exec:java
-
-USO 
+Uso
 Inicio de Sesión: Inicia la aplicación e inicia sesión con tus credenciales.
 Panel de Control: Accede a varios paneles para gestionar clientes, mascotas, citas, inventarios y facturación.
 Configuración: Configura cuentas de usuario y otros ajustes administrativos.
-
-
-DESARROLLO
+Desarrollo
 Metodología
 El proyecto siguió un enfoque de desarrollo incremental, dividiendo los requisitos en pequeñas unidades funcionales. Cada unidad se diseñó, implementó, probó y evaluó individualmente.
 
@@ -83,4 +80,3 @@ Contribuciones
 
 Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
-
