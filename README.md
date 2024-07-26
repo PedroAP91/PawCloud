@@ -1,80 +1,86 @@
-PawCloud
+# PawCloud
 
+PawCloud es una aplicación diseñada para mejorar la gestión de clínicas veterinarias de pequeña escala. Este proyecto tiene como objetivo proporcionar una solución asequible y eficiente para que las clínicas optimicen sus recursos sin los altos costos asociados con sistemas más complejos.
 
-PawCloud is an application designed to improve the management of small-scale veterinary clinics. This project aims to provide an affordable and efficient solution for clinics to optimize their resources without the high costs associated with more complex systems.
+## Tabla de Contenidos
+- [Descripción General](#descripción-general)
+- [Características](#características)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Desarrollo](#desarrollo)
+- [Contribuciones](#contribuciones)
+- [Licencia](#licencia)
 
-Table of Contents
-Overview
-Features
-Technologies Used
-Installation
-Usage
-Development
-Contributing
-License
-Overview
-PawCloud is developed to streamline the administrative and operational processes of veterinary clinics. It offers functionalities such as appointment scheduling, medical records management, inventory control, and billing, all through an intuitive and user-friendly interface. The application ensures secure and centralized access to all crucial information via cloud storage, enhancing operational efficiency and customer service quality.
+## Descripción General
 
-Features
-User Authentication: Secure user registration and login.
-Client and Pet Management: Detailed records for clients and their pets, including medical histories and vaccination records.
-Appointment Scheduling: Easy scheduling and tracking of veterinary appointments.
-Inventory Management: Efficient tracking of medications, food supplies, and other inventory items.
-Billing and Invoicing: Automated generation and management of receipts and invoices.
-Scalability: Designed to grow with your clinic, allowing the addition of multiple users, features, and storage as needed.
-Technologies Used
-Java: Core programming language for application logic.
-Swing: Java library for building graphical user interfaces.
-JDBC: Java Database Connectivity for database interactions.
-MySQL: Database management system.
-AWS: Cloud storage and services.
-BCrypt: For secure password hashing.
-Maven: Project management and dependency management.
-GitHub: Version control system.
-Excalidraw: Tool for designing user interfaces.
-DBeaver: Database management tool.
-Installation
-Clone the Repository:
+PawCloud se desarrolló para agilizar los procesos administrativos y operativos de las clínicas veterinarias. Ofrece funcionalidades como la programación de citas, gestión de registros médicos, control de inventarios y facturación, todo a través de una interfaz intuitiva y fácil de usar. La aplicación garantiza un acceso seguro y centralizado a toda la información crucial mediante almacenamiento en la nube, mejorando la eficiencia operativa y la calidad del servicio al cliente.
 
-bash
-Copiar código
-git clone https://github.com/PedroAP91/PAWCLOUD.git
-cd PAWCLOUD
-Install Dependencies:
-Ensure you have Java and Maven installed. Install the required libraries using Maven:
+## Características
+
+- **Autenticación de Usuarios**: Registro y inicio de sesión seguro.
+- **Gestión de Clientes y Mascotas**: Registros detallados de clientes y sus mascotas, incluyendo historiales médicos y registros de vacunación.
+- **Programación de Citas**: Fácil programación y seguimiento de citas veterinarias.
+- **Gestión de Inventarios**: Seguimiento eficiente de medicamentos, suministros de alimentos y otros elementos de inventario.
+- **Facturación y Generación de Recibos**: Generación y gestión automatizada de recibos y facturas.
+- **Escalabilidad**: Diseñado para crecer junto con su clínica, permitiendo la adición de múltiples usuarios, funciones y almacenamiento según sea necesario.
+
+## Tecnologías Utilizadas
+
+- **Java**: Lenguaje de programación principal para la lógica de la aplicación.
+- **Swing**: Biblioteca de Java para construir interfaces gráficas de usuario.
+- **JDBC**: Conectividad de bases de datos Java para interacciones con bases de datos.
+- **MySQL**: Sistema de gestión de bases de datos.
+- **AWS**: Almacenamiento y servicios en la nube.
+- **BCrypt**: Para hashing seguro de contraseñas.
+- **Maven**: Gestión de proyectos y dependencias.
+- **GitHub**: Sistema de control de versiones.
+- **Excalidraw**: Herramienta para diseñar interfaces de usuario.
+- **DBeaver**: Herramienta de gestión de bases de datos.
+
+## Instalación
+
+1. **Clonar el Repositorio**:
+   ```bash
+   git clone https://github.com/PedroAP91/PAWCLOUD.git
+   cd PAWCLOUD
+Instalar Dependencias:
+Asegúrate de tener Java y Maven instalados. Instala las bibliotecas requeridas usando Maven:
 
 bash
 Copiar código
 mvn install
-Setup Database:
+Configurar la Base de Datos:
 
-Configure your MySQL database.
-Update the database connection details in the application configuration.
-Run the Application:
+Configura tu base de datos MySQL.
+Actualiza los detalles de conexión a la base de datos en la configuración de la aplicación.
+Ejecutar la Aplicación:
 
 bash
 Copiar código
 mvn exec:java
-Usage
-Login: Start the application and log in using your credentials.
-Dashboard: Access various panels for managing clients, pets, appointments, inventory, and billing.
-Settings: Configure user accounts and other administrative settings.
-Development
-Methodology
-The project followed an incremental development approach, dividing requirements into small functional units. Each unit was designed, implemented, tested, and evaluated individually.
 
-Branching Strategy
-Development was managed using GitHub with feature branches. Each new feature or bug fix was implemented in its branch and merged into the main branch after review and testing.
+USO 
+Inicio de Sesión: Inicia la aplicación e inicia sesión con tus credenciales.
+Panel de Control: Accede a varios paneles para gestionar clientes, mascotas, citas, inventarios y facturación.
+Configuración: Configura cuentas de usuario y otros ajustes administrativos.
 
-Tools
-Eclipse IDE: Used for coding and debugging.
-Excalidraw: For designing UI mockups.
-WindowBuilder: Eclipse plugin for designing GUI components.
-DBeaver: For managing the database.
-Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows the existing style and includes appropriate tests.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+DESARROLLO
+Metodología
+El proyecto siguió un enfoque de desarrollo incremental, dividiendo los requisitos en pequeñas unidades funcionales. Cada unidad se diseñó, implementó, probó y evaluó individualmente.
 
-Feel free to explore, use, and contribute to PawCloud. Together, we can improve the management and efficiency of veterinary clinics, ensuring better care for pets and streamlined operations for veterinary professionals.
+Estrategia de Ramas
+El desarrollo se gestionó utilizando GitHub con ramas de características. Cada nueva característica o corrección de errores se implementó en su propia rama y se fusionó con la rama principal después de la revisión y las pruebas.
+
+Herramientas
+Eclipse IDE: Utilizado para codificación y depuración.
+Excalidraw: Para diseñar maquetas de UI.
+WindowBuilder: Plugin de Eclipse para diseñar componentes GUI.
+DBeaver: Para gestionar la base de datos.
+Contribuciones
+¡Las contribuciones son bienvenidas! Por favor, haz un fork del repositorio y crea un pull request con tus cambios. Asegúrate de que tu código siga el estilo existente e incluya pruebas apropiadas.
+
+Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
